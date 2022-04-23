@@ -1,0 +1,9 @@
+:~
+  title+'Olif'
+  info+'An olfactive representation of your Urbit ID'
+  color+0x60.6060
+  version+[9 9 9]
+  website+'https://urbit.fragrance.services'
+  license+'MIT'
+  site+/apps/olif
+==
