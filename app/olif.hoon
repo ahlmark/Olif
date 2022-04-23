@@ -28,24 +28,9 @@
 ::
 ::
 ::
-/-  *orca, post, store=graph-store, mdst=metadata-store
-/+  default-agent, dbug, *resource, sign=signatures, rudder
-/~  pages  (page:rudder state-0 srkw)  /app/olif
-::
-|%
-+$  versioned-state
-    $%  state-zero
-    ==
-::
-::  state-zero
-::
-::  fam - your currently federated resources,
-::        and their pods
-::  pup - outgoing requests to increase your pod
-::  cal - incoming requests to join a pod
-::  mem - avoid infinite loop
 
-#29cc6f
+
+
 
 
 ::
