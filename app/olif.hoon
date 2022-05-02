@@ -28,6 +28,10 @@
 ::
 ::
 ::
+/-             :: import from sur file
+/+  odour      :: odour definitions and group logic
+/+  organ      :: olif - phenome index
+
 
 
 
