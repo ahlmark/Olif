@@ -27,17 +27,34 @@
 ::  for alternative type representation specific to an Olif.
 ::
 ::
-::
-/-             :: import from sur file
+/-  olif       :: import from sur file
 /+  odour      :: odour definitions and group logic
 /+  organ      :: olif - phenome index
-
-
-
-
-
+::
+::
+|%
++$  versioned-state
+  $%  state-0
++$  state-0
+  $:  [%0 internal-value=@ud]
+  ==
++$ card  card:agent:gall
+--
+::
+::::::::::::::
+=|  state-0
+=*  state  -
+::::::::::::::
+::
+::
+%-  agent:dbug
+^-  agent:gall
+=<
 |_  =bowl:gall
-
+::
++*  this     .
+    default  ~(. (default-agent this %|) bowl)
+    main     ~(. +> bowl)
 ::
 ++  on-init
 `..on-init
