@@ -30,15 +30,16 @@
 ::
 ::
   :-  'bac'
-  :~  ;path
-
-    odor group
-    material 1
-    material 2
-    description
-    Material 1 pcs
-    Material 2 pcs
-
+  :~  ;odor group
+       :: The associated odor group 
+      ;material 1
+       :: The first constituent material
+      ;material 2
+       :: The second constituent material
+      ;Material 1 pcs
+       :: The piece count of the first constituent material
+      ;Material 2 pcs
+       :: The piece count of the second constituent material
 
   ==
 ::
